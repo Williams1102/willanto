@@ -11,7 +11,8 @@
   "extends": [
     "plugin:prettier/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:import/warnings"
+    "plugin:import/warnings",
+    "./.eslintrc-auto-import.json"
   ],
   "plugins": ["simple-import-sort", "import"],
   "rules": {
